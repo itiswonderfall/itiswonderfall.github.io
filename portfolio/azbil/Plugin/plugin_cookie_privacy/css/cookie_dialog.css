@@ -1,0 +1,83 @@
+#cookie-dialog {
+    opacity: 0;
+    display: block;
+    position: fixed;
+    bottom: -100px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    z-index: -1;
+    -o-transition: all .8s linear !important;
+    -webkit-transition: all .8s linear !important;
+    -moz-transition: all .8s linear !important;
+    transition: all .8s linear !important;
+}
+
+#cookie-dialog.show {
+    bottom: 0px;
+    opacity: 1;
+    z-index: 9999;
+    -o-transition: all .8s linear !important;
+    -webkit-transition: all .8s linear !important;
+    -moz-transition: all .8s linear !important;
+    transition: all .8s linear !important;
+}
+
+#cookie-dialog .cookie-privacy-message {
+    color: #fff;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+#cookie-dialog .cookie-privacy-message h4 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#cookie-dialog #agree-cookie-btn {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+#cookie-dialog .agree-area {
+    text-align: left;
+}
+#cookie-dialog .cookie-privacy-message #agree-cookie-btn {
+    -o-transition: all .2s linear !important;
+    -webkit-transition: all .2s linear !important;
+    -moz-transition: all .2s linear !important;
+    transition: all .2s linear !important;
+}
+#cookie-dialog .cookie-privacy-message #agree-cookie-btn:hover {
+    background-color: #145791;
+    -o-transition: all .2s linear !important;
+    -webkit-transition: all .2s linear !important;
+    -moz-transition: all .2s linear !important;
+    transition: all .2s linear !important;
+}
+
+
+#cookie-dialog .cookie-privacy-message button {
+    border-radius: 0;
+    line-height: 30px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 7px;
+}
+
+#cookie-dialog .cookie-privacy-message a {
+    color: #f0dba5;
+}
+
+@media (max-width:991px) {
+    #cookie-dialog .cookie-privacy-message {
+        text-align: center;
+    }
+
+    #cookie-dialog .agree-area {
+        text-align: center;
+    }
+}
