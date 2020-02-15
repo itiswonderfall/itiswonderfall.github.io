@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+/* Facebook Plugin */
+
+#fb-root {
+    display: none;
+}
+
+.fb-comments {
+    width: 100% !important;
+}
+
+.fb-comments iframe[style] {
+    width: 100% !important;
+}
+
+.fb-like-box {
+    min-width: 280px;
+    width: 100% !important;
+}
+
+.fb-like-box iframe[style] {
+    min-width: 280px;
+    width: 100% !important;
+}
+
+.fb-comments span {
+    width: 100% !important;
+}
+
+.fb-comments iframe span[style] {
+    width: 100% !important;
+}
+
+.fb-like-box span {
+    min-width: 280px;
+    width: 100% !important;
+}
+
+.fb-like-box iframe span[style] {
+    min-width: 280px;
+    width: 100% !important;
+}
+
+.fb_iframe_widget,
+.fb_iframe_widget span,
+.fb_iframe_widget span iframe[style] {
+
+}
+
+.fb-page,
+.fb-page span,
+.fb-page span iframe[style] {
+    
+}
+
+@media (min-width:768px) {
+    .div-table {
+        display: table;
+        border-collapse: collapse;
+    }
+    .div-table .row {
+        display: table-row;
+    }
+    .div-td {
+        display: table-cell;
+        vertical-align: middle;
+        float: none;
+    }
+}
+
+
+/* define bootstrap 5 columns */
+
+.col-xs-1-5,
+.col-sm-1-5,
+.col-md-1-5,
+.col-lg-1-5 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-xs-1-5 {
+    width: 20%;
+    float: left;
+}
+
+@media (max-width: 768px) {
+    .fbBox {
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-sm-1-5 {
+        width: 20%;
+        float: left;
+    }
+    .gallery-three-thumbs a{float: none;width: auto!important;}
+}
+
+@media (min-width: 992px) {
+    .col-md-1-5 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-1-5 {
+        width: 20%;
+        float: left;
+    }
+}

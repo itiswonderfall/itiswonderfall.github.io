@@ -1,0 +1,20 @@
+.subpage-nav-field li a {
+    color: #fff;
+    background-color: #7f6a5b;
+    border-bottom: 4px solid #7f6a5b;
+}
+.subpage-nav-field li.active a,
+.subpage-nav-field li:hover a,
+.subpage-nav-field li.pg-state-hover a {
+    background-color: #9D4808;
+    border-bottom: 4px solid #632e07;
+}
+.subpage-nav-field .subpage-nav-btn.collapsed {
+    background-color: #c23100;
+    color: #fff;
+}
+.subpage-nav-field .subpage-nav-btn:hover,
+.subpage-nav-field .subpage-nav-btn {
+    background-color: #D4722B;
+    color: #fff;
+}

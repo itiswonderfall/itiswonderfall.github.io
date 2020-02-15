@@ -1,0 +1,4 @@
+body,html {
+	 -webkit-user-select: none;   /* for Chrome */
+	 -moz-user-select: none;  /* for Firefox */ 
+}

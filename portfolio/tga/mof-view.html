@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="蛋糕協會,烘焙,甜點,比賽,蛋糕" />
+        <meta name="description" content="「推廣台灣蛋糕文化，專業技能教育，培育一流主廚、經營者」！台灣蛋糕協會以提升台灣蛋糕業界技術為目標，定期舉辦蛋糕比賽、蛋糕技術講習會，同時本組織為對日本、華人地區或國內烘焙、蛋糕界及飲食文化交流的窗口，增進專業知識及資訊吸收。">
+        <title>社團法人台灣蛋糕協會 TAIWAN GÂTEAUX ASSOCIATION</title>
+        <link rel="stylesheet" href="scripts/bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="wow_book/wow_book.css" type="text/css" />
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/usercss.css">
+    </head>
+    <body>
+        <div class='book_container'>
+            <div id="book"></div>
+        </div>
+        <script src="js/jquery.min.js"></script>         
+        <script src="js/vendor/modernizr-2.7.1.min.js"></script>
+        <script src="js/helper.js"></script>
+        <script type="text/javascript" src="wow_book/pdf.combined.min.js"></script>
+        <script src="wow_book/wow_book.min.js"></script>
+        <script>
+		$(function(){
+			var bookOptions = {
+		        height   : 500
+		        ,width    : 800
+		        ,maxHeight : 600
+		        ,centeredWhenClosed : true
+		        ,hardcovers : true
+		        ,pageNumbers: false
+		        ,toolbar : "lastLeft, left, right, lastRight, toc, zoomin, zoomout, slideshow, flipsound, fullscreen, thumbnails"
+		        ,thumbnailsPosition : 'left'
+		        ,responsiveHandleWidth : 50
+		        ,container: window
+		        ,containerPadding: "20px"
+		        ,pdf: "ebook_ex.pdf"
+		    };
+		    $('#book').wowBook( bookOptions );
+		})
+	</script>
+    </body>
+</html>

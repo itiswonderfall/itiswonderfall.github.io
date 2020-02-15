@@ -1,0 +1,180 @@
+<!doctype HTML> 
+<html lang="ms" data-pgc-master="template.html"> 
+    <head> 
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+        <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0 minimal-ui" /> 
+        <meta name="apple-mobile-web-app-capable" content="yes" /> 
+        <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+        <title>AZ</title>         
+        <link rel="shortcut icon" type="image/x-icon" href="images/common/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="css/style.css"> 
+        <link rel="stylesheet" type="text/css" class="switch_style" href="css/skin.css"> 
+        <link rel="stylesheet" type="text/css" href="css/framework.css"> 
+        <link rel="stylesheet" type="text/css" href="css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="Plugin/font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="Plugin/plugin_fancybox/css/jquery.fancybox.css">
+        <link rel="stylesheet" href="css/webTemplate/default/style.css">
+        <link rel="stylesheet" href="css/responsive_style.css">
+        <link rel="stylesheet" href="css/usercss.css"> 
+    </head>     
+    <body> 
+        <div id="page-transitions">
+            <header>
+                <div id="header">
+                    <a href="#" class="open-left-sidebar"><i class="ion-navicon"></i></a>
+                    <a href="index.html" class="page-logo"></a>
+                </div>
+                <div id="sidebar-tap-close"></div>
+                <div id="sidebar-left">
+                    <div class="sidebar-scroll">
+                        <a href="index.html" class="sidebar-logo sidebar-item"></a>
+                        <a href="#" class="sidebar-item sidebar-close"><i class="ion-ios-close-empty"></i></a>
+                        <div class="sidebar-item sidebar-divider"></div>
+                        <div class="sidebar-menu">
+                            <div class="sidePimg">
+                                <img src="upload/tw/tmp/avatar.jpg" class="alignleft img-circle img-thumbnail" alt="">
+                                <div class="changePhoto">
+                                    <a href="changePhoto.html"><i class="fa fa-camera"></i></a>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <a href="login.html" class="ui_button secondary fullwidth login-button button_container">登入</a>
+                                <a href="register.html" class="ui_button primary fullwidth login-button">加入</a>
+                                <a href="member.html" class="ui_button secondary fullwidth login-button button_container">編輯會員資料</a>
+                                <a href="index.html" class="ui_button primary fullwidth login-button">登出</a>
+                            </div>
+                            <a class="sidebar-item active-item" data-sub="sub-1" href="#"><i class="ion-ios-compose-outline"></i>討論區</a>
+                            <div id="sub-1" class="submenu active-submenu">
+                                <a class="sidebar-item active-item" href="food-search.html">餐廳</a>
+                                <a class="sidebar-item" href="job-search.html">工作</a>
+                                <a class="sidebar-item" href="house-menu.html">房地產</a>
+                                <a class="sidebar-item" href="bnb-search.html">民宿</a>
+                            </div>
+                            <a class="sidebar-item" href="lottery.html"><i class="ion-ios-star-outline"></i>幸運抽獎<i class="ion-record"></i></a>
+                            <a class="sidebar-item" href="link.html"><i class="ion-ios-copy-outline"></i>網站連結<i class="ion-record"></i></a>
+                            <a class="sidebar-item" href="exclusive.html"><i class="ion-ios-home-outline"></i>會員專屬<i class="ion-record"></i></a>
+                        </div>
+                        <div class="sidebar-item sidebar-divider"></div>
+                        <div class="sidebar-item sidebar-copyright">
+                            <em>Copyright <span class="copyright-year"></span>. All rights reserved.</em>
+                        </div>
+                        <div class="sidebar-item sidebar-divider"></div>
+                    </div>
+                </div>
+            </header>
+            <main class="pg-empty-placeholder" data-pgc-field="editor-area"> 
+                <div id="page-content" class="header-clear">
+                    <div class="content">
+                        <div class="houseSearchSec">
+                            <div class="container no-bottom">
+                                <div class="contact-form no-bottom"> 
+                                    <div class="heading-text">
+                                        <h4 class="animate-fade">SEARCH</h4>
+                                        <div class="heading-line-1"></div>
+                                        <i class="fa fa-search color-red-dark"></i>
+                                        <div class="heading-line-2"></div>
+                                    </div>
+                                    <form action="house-list.html" method="post" id="houseSearchForm">
+                                        <fieldset> 
+                                            <div class="formFieldWrap">
+                                                <label class="field-title contactNameField">州屬 :
+</label>
+                                                <select class="contactField">
+                                                    <option selected="" value="--- 請選擇 ---">--- 請選擇 ---</option>
+                                                    <option value="雪蘭莪州 ">雪蘭莪州 </option>
+                                                    <option value="霹靂州 ">霹靂州 </option>
+                                                    <option value="彭亨州 ">彭亨州 </option>
+                                                    <option value="柔佛州 ">柔佛州 </option>
+                                                    <option value="吉打州 ">吉打州 </option>
+                                                    <option value="吉蘭丹州 ">吉蘭丹州 </option>
+                                                    <option value="登嘉樓州 ">登嘉樓州 </option>
+                                                    <option value="森美蘭州 ">森美蘭州 </option>
+                                                    <option value="玻璃市 ">玻璃市 </option>
+                                                    <option value="檳城州 ">檳城州 </option>
+                                                    <option value="馬六甲州 ">馬六甲州 </option>
+                                                    <option value="沙巴州 ">沙巴州 </option>
+                                                    <option value="砂拉越州 ">砂拉越州 </option>
+                                                </select>
+                                                <label class="field-title contactEmailField">地區 :</label>
+                                                <select class="contactField">
+                                                    <option selected="" value="--- 請選擇 ---">--- 請選擇 ---</option>
+                                                    <option value="吉隆坡 ">吉隆坡 </option>
+                                                    <option value="喬治市 ">喬治市 </option>
+                                                    <option value="怡保 ">怡保 </option>
+                                                    <option value="八打靈再也 ">八打靈再也 </option>
+                                                    <option value="莎阿南 ">莎阿南 </option>
+                                                    <option value="依斯干達公主城 ">依斯干達公主城 </option>
+                                                    <option value="芙蓉市 ">芙蓉市 </option>
+                                                    <option value="新山 ">新山 </option>
+                                                    <option value="馬六甲市 ">馬六甲市 </option>
+                                                    <option value="亞庇 ">亞庇 </option>
+                                                </select>
+                                                <label class="field-title contactEmailField">房源類型 :</label>
+                                                <div class="checkboxes-group">
+                                                    <div class="fac">
+                                                        <input id="box0-fac-checkbox" type="checkbox" value="1">
+                                                        <label for="box0-fac-checkbox">所有房源</label>
+                                                    </div>
+                                                    <div class="fac">
+                                                        <input id="box1-fac-checkbox" type="checkbox" value="1">
+                                                        <label for="box1-fac-checkbox">整層住家</label>
+                                                    </div>
+                                                    <div class="fac">
+                                                        <input id="box2-fac-checkbox" type="checkbox" value="1">
+                                                        <label for="box2-fac-checkbox">獨立套房</label>
+                                                    </div>
+                                                    <div class="fac">
+                                                        <input id="box3-fac-checkbox" type="checkbox" value="1">
+                                                        <label for="box3-fac-checkbox">分租套房</label>
+                                                    </div>
+                                                    <div class="fac">
+                                                        <input id="box5-fac-checkbox" type="checkbox" value="1">
+                                                        <label for="box5-fac-checkbox">分租雅房</label>
+                                                    </div>
+                                                    <div class="fac">
+                                                        <input id="box6-fac-checkbox" type="checkbox" value="1">
+                                                        <label for="box6-fac-checkbox">辦公住辦</label>
+                                                    </div>
+                                                    <div class="fac">
+                                                        <input id="box7-fac-checkbox" type="checkbox" value="1">
+                                                        <label for="box7-fac-checkbox">工廠廠房</label>
+                                                    </div>
+                                                    <div class="fac">
+                                                        <input id="box8-fac-checkbox" type="checkbox" value="1">
+                                                        <label for="box8-fac-checkbox">停車場區</label>
+                                                    </div>
+                                                </div>
+                                                <label class="field-title contactNameField">輸入關鍵字 :</label>
+                                                <input type="text" name="cm_keyword" class="contactField" />
+                                            </div>
+                                            <button type="submit" value="確認送出" class="button button-green contactSubmitButton">確認送出</button>
+                                            <div class="decoration hide-if-responsive cms_mt30"></div>
+                                            <button type="button" value="Login" class="button button-blue contactSubmitButton" onclick="javascript:location.href='forum.html'">back</button>
+                                        </fieldset>
+                                    </form>                                     
+                                </div>
+                            </div>
+                        </div>
+                        <div class="decoration hide-if-responsive"></div>
+                    </div>
+                </div>                 
+
+                <a href="house-post.html" class="plusW foodPost"><i class="fa fa-edit"></i></a> 
+            </main>
+            <footer class="pg-empty-placeholder">
+                <div class="footer footer-dark">
+                    <p class="copyright-text">Copyright <span id="copyright-year"></span>. All Rights Reserved.</p>
+                </div>
+            </footer>             
+        </div>         
+        <a href="#" class="back-to-top-badge back-to-top-badge-visible"><i class="ion-ios-arrow-up"></i></a>
+        <script type="text/javascript" src="js/jquery.js"></script>         
+        <script type="text/javascript" src="js/plugins.js"></script>         
+        <script type="text/javascript" src="js/custom.js"></script>
+        <script type="text/javascript" src="Plugin/plugin_fancybox/js/jquery.fancybox.min.js"></script>
+        <script src="js/jquery.validate.js" type="text/javascript"></script>         
+        <script type="text/javascript" src="js/leftTime.min.js"></script>
+        <script type="text/javascript" src="js/jquery.responsive.js"></script>
+        <script type="text/javascript" src="js/jquery.setting.js"></script>
+    </body>
+</html>

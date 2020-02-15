@@ -1,0 +1,194 @@
+<!doctype HTML> 
+<html lang="ms" data-pgc-master="template.html"> 
+    <head> 
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+        <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0 minimal-ui" /> 
+        <meta name="apple-mobile-web-app-capable" content="yes" /> 
+        <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+        <title>AZ</title>         
+        <link rel="shortcut icon" type="image/x-icon" href="images/common/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="css/style.css"> 
+        <link rel="stylesheet" type="text/css" class="switch_style" href="css/skin.css"> 
+        <link rel="stylesheet" type="text/css" href="css/framework.css"> 
+        <link rel="stylesheet" type="text/css" href="css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="Plugin/font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="Plugin/plugin_fancybox/css/jquery.fancybox.css">
+        <link rel="stylesheet" href="css/webTemplate/default/style.css">
+        <link rel="stylesheet" href="css/responsive_style.css">
+        <link rel="stylesheet" href="css/usercss.css"> 
+    </head>     
+    <body> 
+        <div id="page-transitions">
+            <header>
+                <div id="header">
+                    <a href="#" class="open-left-sidebar"><i class="ion-navicon"></i></a>
+                    <a href="index.html" class="page-logo"></a>
+                </div>
+                <div id="sidebar-tap-close"></div>
+                <div id="sidebar-left">
+                    <div class="sidebar-scroll">
+                        <a href="index.html" class="sidebar-logo sidebar-item"></a>
+                        <a href="#" class="sidebar-item sidebar-close"><i class="ion-ios-close-empty"></i></a>
+                        <div class="sidebar-item sidebar-divider"></div>
+                        <div class="sidebar-menu">
+                            <div class="sidePimg">
+                                <img src="upload/tw/tmp/avatar.jpg" class="alignleft img-circle img-thumbnail" alt="">
+                                <div class="changePhoto">
+                                    <a href="changePhoto.html"><i class="fa fa-camera"></i></a>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <a href="login.html" class="ui_button secondary fullwidth login-button button_container">登入</a>
+                                <a href="register.html" class="ui_button primary fullwidth login-button">加入</a>
+                                <a href="member.html" class="ui_button secondary fullwidth login-button button_container">編輯會員資料</a>
+                                <a href="index.html" class="ui_button primary fullwidth login-button">登出</a>
+                            </div>
+                            <a class="sidebar-item active-item" data-sub="sub-1" href="#"><i class="ion-ios-compose-outline"></i>討論區</a>
+                            <div id="sub-1" class="submenu active-submenu">
+                                <a class="sidebar-item active-item" href="food-search.html">餐廳</a>
+                                <a class="sidebar-item" href="job-search.html">工作</a>
+                                <a class="sidebar-item" href="house-menu.html">房地產</a>
+                                <a class="sidebar-item" href="bnb-search.html">民宿</a>
+                            </div>
+                            <a class="sidebar-item" href="lottery.html"><i class="ion-ios-star-outline"></i>幸運抽獎<i class="ion-record"></i></a>
+                            <a class="sidebar-item" href="link.html"><i class="ion-ios-copy-outline"></i>網站連結<i class="ion-record"></i></a>
+                            <a class="sidebar-item" href="exclusive.html"><i class="ion-ios-home-outline"></i>會員專屬<i class="ion-record"></i></a>
+                        </div>
+                        <div class="sidebar-item sidebar-divider"></div>
+                        <div class="sidebar-item sidebar-copyright">
+                            <em>Copyright <span class="copyright-year"></span>. All rights reserved.</em>
+                        </div>
+                        <div class="sidebar-item sidebar-divider"></div>
+                    </div>
+                </div>
+            </header>
+            <main class="pg-empty-placeholder" data-pgc-field="editor-area"> 
+                <div id="page-content" class="header-clear-large">
+                    <div class="content center-text">
+                        <a href="#" class="button button-round button-teal">週週抽</a>
+                        <a href="#" class="button button-round button-green">月月抽</a>
+                        <a href="#" class="button button-round button-blue">年年抽</a>
+                    </div>
+                    <div class="content">
+                        <div class="page-blog">
+                            <script>
+                                path=unescape(document.location.href);
+                                if(path.lastIndexOf("?1")<0) location.href=path+"?1";
+                            </script>
+                            <div class="page-blog-list">
+                                <img src="upload/tw/tmp/PRIMO.jpg" alt="" class="responsive-image">
+                                <h4 class="page-blog-title">智能電磁脈衝電弧打火機</h4>
+                                <div class="page-blog-content">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec lectus vitae 
+                                        metus vehicula cursus. Donec purus ex, ultricies vel iaculis sed, consectetur 
+                                        venenatis sapien. Quisque auctor justo libero, vel aliquam odio consequat quis. 
+                                        Nunc accumsan efficitur felis eu egestas. </p>
+                                </div>
+                                <div class="ltAbBtn">
+                                    <a href="javascript:void(0);" class="buttonWrap button button-green contactSubmitButton" id="dateBtn1">參加抽獎</a>
+                                    <div class="clear"></div>
+                                </div>
+                                <!--script type="text/javascript">
+                                    var initialSecs = 10;
+                                    var currentSecs = initialSecs;
+
+                                    setTimeout(decrement,1000); 
+
+                                    function decrement() {
+                                       var displayedSecs = currentSecs % 60;
+                                       var displayedMin = Math.floor(currentSecs / 60) % 60;
+                                       var displayedHrs = Math.floor(currentSecs / 60 /60);
+
+                                        if(displayedMin <= 9) displayedMin = "0" + displayedMin;
+                                        if(displayedSecs <= 9) displayedSecs = "0" + displayedSecs;
+                                        currentSecs--;
+                                        document.getElementById("timerText").innerHTML = displayedHrs + ":" + displayedMin + ":" + displayedSecs;
+                                        if(currentSecs !== -1) setTimeout(decrement,1000);
+                                    }
+                                </script-->
+                                <div class="clear"></div>
+                            </div>
+                            <div class="decoration"></div>
+                            <div class="page-blog-list">
+                                <img src="upload/tw/tmp/2in1.jpg" alt="" class="responsive-image">
+                                <h4 class="page-blog-title">多功能二合一掌上型家庭娛樂無線鍵鼠組</h4>
+                                <div class="page-blog-content">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec lectus vitae 
+                                        metus vehicula cursus. Donec purus ex, ultricies vel iaculis sed, consectetur 
+                                        venenatis sapien. Quisque auctor justo libero, vel aliquam odio consequat quis. 
+                                        Nunc accumsan efficitur felis eu egestas. </p>
+                                </div>
+                                <div class="ltAbBtn">
+                                    <a href="javascript:void(0);" class="buttonWrap button button-green contactSubmitButton" id="dateBtn2">參加抽獎</a>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="decoration"></div>
+                            <div class="page-blog-list">
+                                <img src="upload/tw/tmp/PRIMO.jpg" alt="" class="responsive-image">
+                                <h4 class="page-blog-title">智能電磁脈衝電弧打火機</h4>
+                                <div class="page-blog-content">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec lectus vitae 
+                                        metus vehicula cursus. Donec purus ex, ultricies vel iaculis sed, consectetur 
+                                        venenatis sapien. Quisque auctor justo libero, vel aliquam odio consequat quis. 
+                                        Nunc accumsan efficitur felis eu egestas. </p>
+                                </div>
+                                <div class="ltAbBtn">
+                                    <a href="javascript:void(0);" class="buttonWrap button button-green contactSubmitButton" id="dateBtn3">參加抽獎</a>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="decoration"></div>
+                            <div class="page-blog-list">
+                                <img src="upload/tw/tmp/2in1.jpg" alt="" class="responsive-image">
+                                <h4 class="page-blog-title">多功能二合一掌上型家庭娛樂無線鍵鼠組</h4>
+                                <div class="page-blog-content">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec lectus vitae 
+                                        metus vehicula cursus. Donec purus ex, ultricies vel iaculis sed, consectetur 
+                                        venenatis sapien. Quisque auctor justo libero, vel aliquam odio consequat quis. 
+                                        Nunc accumsan efficitur felis eu egestas. </p>
+                                </div>
+                                <div class="ltAbBtn">
+                                    <a href="javascript:void(0);" class="buttonWrap button button-green contactSubmitButton" id="dateBtn4">參加抽獎</a>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="decoration"></div>
+                            <div class="page-blog-list">
+                                <img src="upload/tw/tmp/PRIMO.jpg" alt="" class="responsive-image">
+                                <h4 class="page-blog-title">智能電磁脈衝電弧打火機</h4>
+                                <div class="page-blog-content">
+                                    <p>
+                                        抽獎時間: 2019 / 02 / 02 </p>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="ltUnBtn">
+                                <a href="javascript:void(0);" class="buttonWrap button button-green contactSubmitButton">尚未開放抽獎</a>
+                            </div>
+                            <div class="decoration"></div>
+                        </div>
+                    </div>
+                </div>                 
+            </main>
+            <footer class="pg-empty-placeholder">
+                <div class="footer footer-dark">
+                    <p class="copyright-text">Copyright <span id="copyright-year"></span>. All Rights Reserved.</p>
+                </div>
+            </footer>             
+        </div>         
+        <a href="#" class="back-to-top-badge back-to-top-badge-visible"><i class="ion-ios-arrow-up"></i></a>
+        <script type="text/javascript" src="js/jquery.js"></script>         
+        <script type="text/javascript" src="js/plugins.js"></script>         
+        <script type="text/javascript" src="js/custom.js"></script>
+        <script type="text/javascript" src="Plugin/plugin_fancybox/js/jquery.fancybox.min.js"></script>
+        <script src="js/jquery.validate.js" type="text/javascript"></script>         
+        <script type="text/javascript" src="js/leftTime.min.js"></script>
+        <script type="text/javascript" src="js/jquery.responsive.js"></script>
+        <script type="text/javascript" src="js/jquery.setting.js"></script>
+    </body>
+</html>
