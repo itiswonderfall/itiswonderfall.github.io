@@ -2198,3 +2198,4 @@ img.bottom-img { top: 0; }
 }
 .portfolio-item a.popup:hover {background-color: transparent!important;color: #ba893f;}
 .portfolio-item:hover a.popup {opacity: 1;top: auto;}
+.feature-text.left-icon .feature-icon {display: inline-flex;}
