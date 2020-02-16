@@ -2171,3 +2171,26 @@ img.bottom-img { top: 0; }
      .newsletter.fancy button { padding: 14px 20px;  }
     }
 }
+
+.personal-about .feature-info h5 {margin-bottom: 0;padding-top: 5px;}
+.personal-about .feature-info .mail {text-transform: none;font-size: 22px;}
+.personal-introduction .section-title {margin-bottom: 30px;}
+.personal-introduction .section-title p {margin-bottom: .5rem;font-size: 18px;line-height: 1.5;}
+.personal-introduction p {line-height: 30px;}
+.personal-contact .section-title h6, .personal-contact .section-title h2 {color: #fff;}
+.portfolio-item a.popup {
+    position: relative;
+    right: auto;
+    top: auto;
+    z-index: 0;
+    width: auto;
+    height: auto;
+    background: transparent;
+    color: #363636;
+    border-radius: 0;
+    margin-right: 0;
+    line-height: normal;
+    opacity: 1;
+}
+.portfolio-item a.popup:hover {background-color: transparent!important;color: #ba893f;}
+.portfolio-item:hover a.popup {opacity: 1;top: auto;}
