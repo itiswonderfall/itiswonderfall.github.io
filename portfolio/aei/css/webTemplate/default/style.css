@@ -959,7 +959,7 @@ table th[class*="col-"] {
   }
 }
 .fl-r{float: right !important;}
-li {text-align: left;}
+li {text-align: center;}
 .section-title{text-transform: none;}
 .dark-bg .overlay {opacity: 0.5;}
 .page-title h2{text-transform: none;}
