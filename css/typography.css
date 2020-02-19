@@ -30,7 +30,7 @@ NOTE: This is typography stylesheet of template, This file contains typography o
 /*************************
     General
 *************************/
-body { font-family: 'Poppins', sans-serif; font-weight: normal; font-style: normal; font-size: 14px; color: #626262; }
+body { font-family: 'Poppins', sans-serif, "微軟正黑體", "Microsoft JhengHei"; font-weight: normal; font-style: normal; font-size: 14px; color: #626262; }
 a, .btn  { -webkit-transition: all 0.3s ease-out 0s; -moz-transition: all 0.3s ease-out 0s; -ms-transition: all 0.3s ease-out 0s; -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s; }
 a:focus { text-decoration: none !important; }
