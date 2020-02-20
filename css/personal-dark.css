@@ -6,7 +6,7 @@ Design and Developed by: potenzaglobalsolutions.com
 NOTE: This file contains the styling for the GYM Template. You can edit/add anything in this file!
 */
  
-h1, h2, h3, h4, h5, h6 { font-family: 'Rancho', sans-serif; font-weight: normal; margin-top: 0px; text-transform: capitalize;  }
+h1, h2, h3, h4, h5, h6 { font-family: 'Rancho', sans-serif, "微軟正黑體", "Microsoft JhengHei"; font-weight: normal; margin-top: 0px; text-transform: capitalize;  }
 
 .section-title .subtitle { text-transform: inherit; font-size: 20px; }
 .slider-parallax.banner-personal .slider-content { width: 70%; float: right; }
