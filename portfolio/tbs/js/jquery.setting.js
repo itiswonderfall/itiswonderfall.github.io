@@ -30,6 +30,8 @@ $(function() {
 	$('.bxslider').bxSlider({
     	mode: 'fade',
     	pager: false,
+    	autoHover: true,
+    	speed: 2000,
     	auto:true
 	});
 	// home-activity
