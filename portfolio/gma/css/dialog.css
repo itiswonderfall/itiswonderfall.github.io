@@ -1,0 +1,22 @@
+.modal.modal-wide .modal-dialog {
+  width: 90%
+}
+.modal-wide .modal-body {
+  overflow-y: auto;
+  overflow-x: hidden
+}
+
+/* irrelevant styling */
+body { text-align: center; }
+body p { 
+  max-width: 400px; 
+  margin: 0px auto
+}
+#tallModal .modal-body p { margin-bottom:}
+
+
+@media(max-width:768px) {
+	.modal.modal-wide .modal-dialog {
+		width: auto
+	}
+}
