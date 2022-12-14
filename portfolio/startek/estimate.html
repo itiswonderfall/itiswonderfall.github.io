@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <meta name="description" content="">
+    <title>產品估價 - 明星電控</title>
+    <link rel="icon" sizes="48x48" href="images/header/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" sizes="48x48" href="images/header/favicon.ico" type="image/x-icon" />
+    <link rel="Bookmark" sizes="48x48" href="images/header/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/fancybox.min.css">
+    <link rel="stylesheet" type="text/css" href="css/creer.css">
+</head>
+<body>
+	<header w3-include-html="include/header.html"></header>
+	<main class="estimate-page">
+		<section class="page-title text-center" style="background-image: url(images/page-title/estimate.jpg);">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="page-title-name">
+							<h1>產品估價</h1>
+						</div>
+						<nav style="--bs-breadcrumb-divider: '/';" aria-label="breadcrumb">
+					  		<ol class="breadcrumb">
+						    	<li class="breadcrumb-item"><a href="index.html">首頁</a></li>
+						    	<li class="breadcrumb-item active" aria-current="page">產品估價</li>
+						  	</ol>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="index-contact" data-background="#404040">
+			<div class="container">
+				<h2 class="section-title wow fadeIn">立即諮詢</h2>
+				<form id="contactform" role="form" method="post" action="#">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-field">
+								<label for="name" class="form-label">姓名<span>*</span></label>
+	  							<input id="name" type="text" class="form-control" name="name" required>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-field">
+								<label for="phone" class="form-label">電話<span>*</span></label>
+	  							<input id="phone" type="tel" class="form-control" name="phone" required>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-field">
+								<label for="email" class="form-label">E-mail<span>*</span></label>
+	  							<input id="email" type="email" class="form-control" name="email" required>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-field">
+								<label class="form-label">大致尺寸</label>
+								<div class="input-group sizing">
+							  		<span class="input-group-text">寬</span>
+								  	<input id="width" type="number" class="form-control" name="width">
+								  	<span class="input-group-text">cm</span>
+								  	<span class="input-group-text">高</span>
+								  	<input id="height" type="number" class="form-control" name="height">
+								  	<span class="input-group-text">cm</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="form-field">
+								<label class="form-label">系列方案<span>*</span></label>
+								<div class="input-group">
+									<div class="form-check-label form-check-inline" for="independent">
+										<label class="checkbox control-label"> 
+							            	<input type="checkbox" id="independent" name="independent" value="independent" class="form-check-input"> 
+								            <span class="outer"><span class="inner"></span></span>
+								            獨立系列 不想平凡 ( Independent series )
+								        </label>
+									</div>
+									<div class="form-check-label form-check-inline" for="leadership">
+										<label class="checkbox control-label"> 
+							            	<input type="checkbox" id="leadership" name="leadership" value="leadership" class="form-check-input"> 
+								            <span class="outer"><span class="inner"></span></span>
+								            領導者系列 自帶氣場 ( Leadership series )
+								        </label>
+									</div>
+									<div class="form-check-label form-check-inline" for="unique">
+										<label class="checkbox control-label"> 
+							            	<input type="checkbox" id="unique" name="unique" value="unique" class="form-check-input"> 
+								            <span class="outer"><span class="inner"></span></span>
+								            出眾系列 天生戲精 ( Unique Series )
+								        </label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-field">
+								<label class="form-label">希望效果<span>*</span></label>
+								<div class="input-group">
+									<div class="form-check-label form-check-inline" for="mute">
+										<label class="checkbox control-label"> 
+							            	<input type="checkbox" id="mute" name="mute" value="mute" class="form-check-input"> 
+								            <span class="outer"><span class="inner"></span></span>
+								            隔音
+								        </label>
+									</div>
+									<div class="form-check-label form-check-inline" for="lightproof">
+										<label class="checkbox control-label"> 
+							            	<input type="checkbox" id="lightproof" name="lightproof" value="lightproof" class="form-check-input"> 
+								            <span class="outer"><span class="inner"></span></span>
+								            遮光
+								        </label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-field">
+								<label class="form-label">可聯絡時間<span>*</span></label>
+								<div class="input-group">
+									<div class="form-check-label form-check-inline" for="am">
+										<label class="checkbox control-label"> 
+							            	<input type="checkbox" id="am" name="am" value="am" class="form-check-input"> 
+								            <span class="outer"><span class="inner"></span></span>
+								            上午
+								        </label>
+									</div>
+									<div class="form-check-label form-check-inline" for="pm">
+										<label class="checkbox control-label"> 
+							            	<input type="checkbox" id="pm" name="pm" value="pm" class="form-check-input"> 
+								            <span class="outer"><span class="inner"></span></span>
+								            下午
+								        </label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="form-field">
+								<label for="textarea" class="form-label">使用場景<span>*</span></label>
+	  							<textarea class="form-control" id="textarea" rows="3" required></textarea>
+	  						</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-field">
+		                		<label for="contact_verify" class="form-label">驗證碼<span>*</span></label>
+		                		<input id="contact_verify" type="text" class="form-control" name="verify" required>
+		              		</div>
+						</div>
+						<div class="col-md-6">
+							<div class="verifyimg"><a href="javascript:void(0);"><img src="images/contact/verifyimg.png" alt="驗證碼"></a></div>
+						</div>
+						<div class="col-md-12 text-center">
+							<button type="submit" class="btn btn-diagonal btn-white">送出表單</button>
+						</div>
+					</div>	
+				</form>
+			</div>
+		</section>
+		<section class="estimate-location" data-background="#ffffff">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-md-6">
+						<div class="estimate-location-txt">
+							<h2 class="section-title wow fadeIn">明星電控空間美學體驗場域</h2>
+							<p>希望藉由我們的服務與解決方案減緩能源耗損的速度：不僅可以節能、也可以簡化施工程序、節省空間、節省維護成本，產品本身可以回收、可以重複使用的特性，也讓使用者可以以「樂高」的概念實現在自己的空間之中。</p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="estimate-location-info">
+							<ul>
+								<li><a href="tel:+886902390859"><div class="info-icon info-icon-phone"></div>+886-902-390-859</a></li>
+								<li><a href="mailto:service@startektw.com"><div class="info-icon info-icon-mail"></div>service@startektw.com</a></li>
+								<li><a href="https://goo.gl/maps/UJjxh3M2ALMSry7K8" target="_blank"><div class="info-icon info-icon-location"></div>台北市松山區敦化北路222巷70號1樓</a></li>
+								<li><div class="info-icon info-icon-house"></div>週一至週五 09:00 – 18:00 ( 預約制 )</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="jcarousel-wrapper">
+				<div class="jcarousel">
+					<ul>
+						<li>
+							<a href="images/estimate/store-1.gif" data-fancybox="galleryOne">
+								<img class="img-fluid" src="images/estimate/store-1.gif" alt="旗艦店體驗圖片">
+							</a>
+						</li>
+						<li>
+							<a href="images/estimate/store-2.gif" data-fancybox="galleryOne">
+								<img class="img-fluid" src="images/estimate/store-2.gif" alt="旗艦店體驗圖片">
+							</a>
+						</li>
+						<li>
+							<a href="images/estimate/store-3.gif" data-fancybox="galleryOne">
+								<img class="img-fluid" src="images/estimate/store-3.gif" alt="旗艦店體驗圖片">
+							</a>
+						</li>
+						<li>
+							<a href="images/estimate/store-4.jpg" data-fancybox="galleryOne">
+								<img class="img-fluid" src="images/estimate/store-4.jpg" alt="旗艦店體驗圖片">
+							</a>
+						</li>
+						<li>
+							<a href="images/estimate/store-5.jpg" data-fancybox="galleryOne">
+								<img class="img-fluid" src="images/estimate/store-5.jpg" alt="旗艦店體驗圖片">
+							</a>
+						</li>
+						<li>
+							<a href="images/estimate/store-6.jpg" data-fancybox="galleryOne">
+								<img class="img-fluid" src="images/estimate/store-6.jpg" alt="旗艦店體驗圖片">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section class="call-action">
+			<div class="container">
+				<ul>
+					<li><a class="btn-diagonal btn-gray" href="case.html">精彩案例</a></li>
+					<li><a class="btn-diagonal btn-minor" href="products-list.html">了解產品</a></li>
+				</ul>
+			</div>
+		</section>
+	</main>
+	<footer w3-include-html="include/footer.html"></footer>
+	<a href="javascript:void(0);" class="scrollup" style="">
+	<div class="scroll-wrapper">
+	        <div class="scroll-wrapper-inner">
+	            <div class="scroll-title">Top</div>
+	            <div class="scroll-down"></div>
+	        </div>
+	    </div>
+	</a>
+	<script type="text/javascript" src="js/jquery-3.6.0-min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="js/wow.min.js"></script>
+	<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+	<script type="text/javascript" src="js/jquery.jcarousel-swipe.js"></script>
+	<script type="text/javascript" src="js/fancybox.min.js"></script>
+	<script type="text/javascript" src="js/creer.js"></script>
+</body>
+</html>
