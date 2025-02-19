@@ -222,11 +222,14 @@ POTENZA.raindrops = function () {
          var $elem = $(this);                 
            $elem.appear(function () {
              $elem.find('.timer').countTo();
+             $elem.find(".timer.decimals").countTo({decimals: 1});
           });                  
         });
       });
     }
   };
+
+  
  
 /*************************
          Isotope
