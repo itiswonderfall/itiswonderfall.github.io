@@ -220,7 +220,8 @@ h4 {font-size: 18px;}
 .round .nav.nav-tabs li a { padding: 12px 20px; }
 #rev_slider_16_1_forcefullwidth .tp-parallax-wrap { margin-top: 50px; }
 #services .feature-text.left-icon .feature-icon { position: relative; text-align: left; }
-#services .feature-text .feature-icon span, #services .feature-text .feature-icon i { padding-left: 0; margin-bottom: 10px; }
+#services .feature-text .feature-icon span, #services .feature-text .feature-icon i { padding-left: 0; margin-bottom: 30px; }
+#services .feature-text.left-icon {text-align: left;}
 #services .feature-text.left-icon .feature-info { padding-left: 0; }
 .medical-tab .nav.nav-tabs li a { padding: 12px 20px; }
 .login-social li { margin: 3px 0px; }
